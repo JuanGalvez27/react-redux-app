@@ -14,6 +14,7 @@ export const usersSlice = createSlice({
   }
 })
 
+// actions: objetos que están dentro del reducer
 // Se desestructura para quedar expuesta a los demás componentes
 export const { setUserList } = usersSlice.actions
 
